@@ -15,7 +15,7 @@ Integrate the Persona Inquiry flow directly into your app with native SDK.
   s.source           = { :path => '.' }
   s.source_files = 'persona_flutter/Sources/persona_flutter/**/*.swift'
   s.dependency 'Flutter'
-  s.dependency 'PersonaInquirySDK2', '2.41.1'
+  s.dependency 'PersonaInquirySDK2', '2.52.2'
   s.static_framework = true
   s.platform = :ios, '13.0'
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
