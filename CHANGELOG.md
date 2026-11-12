@@ -1,6 +1,7 @@
 ## Unreleased
 
-* iOS: add Swift Package Manager support alongside CocoaPods. The plugin now lives in `ios/persona_flutter/` (`Package.swift`, `Sources/persona_flutter/`), depends on the Persona SDK package (`persona-id/inquiry-ios-2`, exact 2.41.1 like the pod), and the Swift class is registered directly as `PersonaFlutterPlugin` (the Objective-C registrant was removed because SwiftPM targets cannot mix languages).
+* iOS: updated Persona iOS SDK to 2.52.2 (CocoaPods and Swift Package Manager). Includes Persona's 2.42.0 fix for the camera possibly hanging when switching from the rear camera to the selfie camera, which could leave users looping at the Selfie step after Government ID.
+* iOS: add Swift Package Manager support alongside CocoaPods. The plugin now lives in `ios/persona_flutter/` (`Package.swift`, `Sources/persona_flutter/`), depends on the Persona SDK package (`persona-id/inquiry-ios-2`, exact version kept in sync with the pod), and the Swift class is registered directly as `PersonaFlutterPlugin` (the Objective-C registrant was removed because SwiftPM targets cannot mix languages).
 
 ## 4.0.1
 
